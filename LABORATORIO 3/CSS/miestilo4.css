@@ -1,0 +1,36 @@
+.contenedor {
+  background-color: blue;
+}
+
+.cabecera {
+  background-color: blueviolet;
+}
+
+.menu {
+  background-color: chartreuse;
+}
+
+.contenido {
+  background-color: chocolate;
+}
+
+.pie {
+  background-color: cornflowerblue;
+}
+
+.body {
+  background-color: darkgray;
+}
+
+.parrafoimagen {
+  background-image: url("/IMG/labili.jpg");
+}
+
+.parrafotransparencia {
+  background-color: black;
+  opacity: 75%;
+  color: whitesmoke;
+}
+.parrafoimagenrepetir {
+  background-image: url("/IMG/bil.jpg");
+}
