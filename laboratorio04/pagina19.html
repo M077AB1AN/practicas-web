@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript parte 5</title>
+    <script type="text/javascript">
+        var est = ["verano", "otoño", "invierno", "primavera"];
+        document.write("El tamaño del vector es: " + est.length);
+        document.write("<hr>")
+
+        //si quiero mostrar el segundo valor del vector
+        //verano -> indice: 0 -> posiciones: 1
+        //otoño -> indice: 1 -> posiciones:2
+        //invierno -> indice: 2 -> posiciones: 3
+        //primavera -> indice: 3 -> posiciones: 4
+
+        document.write("el segundo valor del vector es: " + est[1]);
+        document.write("<hr>");
+
+        for (var i = 0; i < est.length; i++) {
+            document.write("el valor" + (i + 1) + " del vector es:" + est[i] + "<br>");
+        }
+        document.write("<hr>");
+
+        est.push("ya no hay mas estaciones");
+        for (var i = 0; i < est.length; i++) {
+            document.write("el valor" + (i + 1) + "del vector es:" + est[i] + "<br>");
+        }
+        document.write("<hr>");
+
+        est.pop();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
